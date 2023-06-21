@@ -23,9 +23,20 @@
     "build-cjs": "del-cli dist/cjs && tsc --project tsconfig.cjs.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "TypeScript",
+    "type",
+    "guard",
+    "guards"
+  ],
+  "author": {
+    "name": "Oleg Dutchenko",
+    "email": "dutchenko.o.dev@gmail.com"
+  },
+  "license": "BSD-3-Clause",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.2",
     "@rollup/plugin-node-resolve": "^15.1.0",

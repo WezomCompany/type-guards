@@ -1,1 +1,1 @@
-export * from './isNotEmptyString';
+export * from './isNotEmptyString.js';
